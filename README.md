@@ -1,12 +1,12 @@
 # nosql-challenge
 
-This challenge is about importing the data, sets up and updates the uk_food nosql database, and perform exploratory analysis queries in the database.
+This challenge is about importing the data, updating the uk_food nosql database, and performing exploratory analysis queries on the database.
 
 The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. The editors of a food magazine, Eat Safe, Love, wants us to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
 
 Following are the step-by-step descriptions on the written code.
 
-Part 1: Database and Jupyter Notebook Set Up
+### Part 1: Database and Jupyter Notebook Set Up
 
 NoSQL_setup_starter.ipynb is used for this section of the challenge. 
 
@@ -23,7 +23,7 @@ NoSQL_setup_starter.ipynb is used for this section of the challenge.
 
 5. Assigned the establishments collection to a variable to prepare the collection for use.
 
-Part 2: Update the Database
+### Part 2: Update the Database
 Used NoSQL_setup_starter.ipynb for this section of the challenge.
 
 The magazine editors have some requested modifications for the database before we can perform any queries or analysis for them. Made the following changes to the establishments collection:
@@ -71,7 +71,7 @@ The magazine editors have some requested modifications for the database before w
 	- Used update_many to convert RatingValue to integer numbers.
 
 
-Part 3: Exploratory Analysis
+### Part 3: Exploratory Analysis
 
 Eat Safe, Love has specific questions they want you to answer, which will help them find the locations they wish to visit and avoid.
 
@@ -96,11 +96,6 @@ Used the given instructions to find these results.
 3. What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
 
 4. How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas.
-
-
-
-
-
 
 
 
